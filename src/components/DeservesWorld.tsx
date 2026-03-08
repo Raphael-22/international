@@ -5,8 +5,8 @@ export default function DeservesWorld() {
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 z-0">
         {/* Replace this with Jane's photo */}
-       <img
-  src="/main.jpg"
+    <img
+  src={`${import.meta.env.BASE_URL}main.jpg`}
   alt="Jane"
   className="w-full max-w-md mx-auto rounded-3xl object-cover shadow-xl"
 />
