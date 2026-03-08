@@ -1,10 +1,26 @@
 import { motion } from 'motion/react';
 
 const qualities = [
-  { num: "01", title: "Your Grace", desc: "The way you move through the world with such elegance, even when things are heavy. You carry yourself with a quiet strength that leaves me in awe." },
-  { num: "02", title: "Your Heart", desc: "Your capacity to love, to care, and to feel deeply is your superpower. You bring warmth to every room and comfort to my soul." },
-  { num: "03", title: "Your Brilliance", desc: "Your mind is a beautiful place. I am constantly amazed by your intelligence, your perspective, and the way you see the world." },
-  { num: "04", title: "Your Softness", desc: "In a world that demands hardness, your gentleness is a gift. It is a rare and profound kind of bravery to remain so soft." }
+  {
+    num: '01',
+    title: 'Your Grace',
+    desc: "La manière dont tu traverses la vie avec autant d’élégance, même lorsque tout devient lourd, force l’admiration. Tu portes en toi une force discrète, noble et rare, qui te rend profondément inoubliable."
+  },
+  {
+    num: '02',
+    title: 'Your Heart',
+    desc: "Ton cœur est d’une beauté rare. Ta capacité à aimer sincèrement, à prendre soin des autres et à ressentir les choses avec autant de profondeur fait de toi une personne précieuse et irremplaçable."
+  },
+  {
+    num: '03',
+    title: 'Your Brilliance',
+    desc: "Ton intelligence et ta manière de voir le monde sont fascinantes. Tu as une profondeur de pensée, une sensibilité et une clarté qui rendent chacune de tes paroles marquante."
+  },
+  {
+    num: '04',
+    title: 'Your Softness',
+    desc: "Dans un monde qui pousse souvent à devenir dur, ta douceur est une force immense. Elle apaise, elle rassure, et elle révèle une forme de courage rare et magnifique."
+  }
 ];
 
 export default function Extraordinary() {
