@@ -8,7 +8,7 @@ export default function DeservesWorld() {
     <img
   src={`${import.meta.env.BASE_URL}main.jpg`}
   alt="Jane"
-  className="w-full max-w-md mx-auto rounded-3xl object-cover shadow-xl"
+  className="w-full h-full rounded-3xl object-cover shadow-xl"
 />
         <div className="absolute inset-0 bg-ink/40"></div>
       </div>
