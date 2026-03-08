@@ -24,7 +24,7 @@ import Ending from './components/Ending';
 
 export default function App() {
   return (
-    <main className="relative bg-ivory text-ink selection:bg-gold/30 selection:text-ink">
+    <>
       <FloatingParticles />
       <Hero />
       <Extraordinary />
@@ -36,6 +36,6 @@ export default function App() {
       <InteractiveExperience />
       <Gallery />
       <Ending />
-    </main>
+    </>
   );
 }
