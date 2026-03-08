@@ -8,13 +8,12 @@ export default function Hero() {
           initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 2 }}
           className="text-xs uppercase tracking-[0.3em] text-ink/50 font-medium"
         >
-          March 8th
-        </motion.span>
+Happy International Woman&apos;s Day Aloubi        </motion.span>
         <motion.span 
           initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 2, delay: 0.5 }}
           className="text-xs uppercase tracking-[0.3em] text-ink/50 font-medium"
         >
-          A Digital Letter
+          From the Depth of My Heart
         </motion.span>
       </div>
 
