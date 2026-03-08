@@ -1,7 +1,7 @@
 import { motion } from 'motion/react';
 const photos = [
-  { src: `${import.meta.env.BASE_URL}jane1.jpg`, alt: 'Jane 1', aspect: 'aspect-[3/4]' },
-  { src: `${import.meta.env.BASE_URL}jane2.jpg`, alt: 'Jane 2', aspect: 'aspect-square' },
+  { src: `${import.meta.env.BASE_URL}jane2.jpg`, alt: 'Jane 1', aspect: 'aspect-[3/4]' },
+  { src: `${import.meta.env.BASE_URL}jane1.jpg`, alt: 'Jane 2', aspect: 'aspect-square' },
   { src: `${import.meta.env.BASE_URL}jane3.jpg`, alt: 'Jane 3', aspect: 'aspect-[4/3]' },
   { src: `${import.meta.env.BASE_URL}jane4.jpg`, alt: 'Jane 4', aspect: 'aspect-[3/4]' },
 ];
