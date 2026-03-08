@@ -1,7 +1,7 @@
 import { motion } from 'motion/react';
 
 const moments = [
-  { title: "My Direction", description: "You give my life a sense of purpose and direction that I didn't know I was missing." },
+  { title: "My Direction", description: "You give my life a sense of purpose and direction that I knew I always needed." },
   { title: "My Anchor", description: "When the world is chaotic, you are the calm I return to. You ground me in what truly matters." },
   { title: "My Warmth", description: "Your presence is like a fire on a cold night. You make everything feel brighter and safer." },
   { title: "My Home", description: "Home isn't a place anymore; it's wherever you are. You are my favorite place to be." }
