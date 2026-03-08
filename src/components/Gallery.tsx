@@ -1,10 +1,10 @@
 import { motion } from 'motion/react';
 
 const photos = [
-  { src: "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?q=80&w=2074&auto=format&fit=crop", alt: "A beautiful moment", aspect: "aspect-[3/4]" },
-  { src: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1974&auto=format&fit=crop", alt: "Jane looking stunning", aspect: "aspect-square" },
-  { src: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=1974&auto=format&fit=crop", alt: "A candid memory", aspect: "aspect-[4/3]" },
-  { src: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1964&auto=format&fit=crop", alt: "A quiet moment", aspect: "aspect-[3/4]" },
+  { src: '/jane1.jpg', alt: 'Jane 1', aspect: 'aspect-[3/4]' },
+  { src: '/jane2.jpg', alt: 'Jane 2', aspect: 'aspect-square' },
+  { src: '/jane3.jpg', alt: 'Jane 3', aspect: 'aspect-[4/3]' },
+  { src: '/jane4.jpg', alt: 'Jane 4', aspect: 'aspect-[3/4]' },
 ];
 
 export default function Gallery() {
