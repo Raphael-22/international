@@ -6,7 +6,7 @@ export default function DeservesWorld() {
       <div className="absolute inset-0 z-0">
         {/* Replace this with Jane's photo */}
     <img
-  src={`${import.meta.env.BASE_URL}main.jpg`}
+  src={`${import.meta.env.BASE_URL}main.JPG`}
   alt="Jane"
   className="w-full h-full rounded-3xl object-cover shadow-xl"
 />
